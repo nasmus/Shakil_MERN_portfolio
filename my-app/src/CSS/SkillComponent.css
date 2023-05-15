@@ -1,0 +1,15 @@
+.Right_component__skills {
+    padding-top: 70px;
+    padding-bottom: 200px;
+    background-color: rgba(114, 153, 116, 0.5);
+  } 
+  .Right_component_skills__component {
+    display: flex;
+    padding-top: 20px;
+  }
+  .Right_component_skills__Left {
+    width: 50%;
+  }
+  .Right_component_skills__right {
+    width: 50%;
+  }

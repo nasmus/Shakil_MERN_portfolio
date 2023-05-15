@@ -1,0 +1,18 @@
+.Education{
+    padding-top: 75px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    color: #cccccc;
+  }
+  .Education__contant {
+    display: flex;
+    padding-bottom: 40px;
+  }
+  .Education_contant__title {
+    width: 27%;
+  }
+  .Education_contant__background {
+    padding-top: 10px;
+    width: 73%;
+    align-items: flex-start;
+  }

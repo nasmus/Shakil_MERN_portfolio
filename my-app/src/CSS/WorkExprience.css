@@ -1,0 +1,25 @@
+.WorkExprience{
+    padding-top: 75px;
+    padding-bottom: 200px;
+    background-color: #7F969F;
+}
+
+.WorkExprience__contant {
+    display: flex;
+}
+.WorkExprience > h1 {
+    padding-bottom: 40px;
+}
+
+.WorkExprience_contant__title {
+    width: 27%;
+    padding-bottom: 40px;
+}
+.WorkExprience_contant__title > h4 {
+    padding-bottom: 10px;
+}
+.WorkExprience_contant__background {
+    padding-top: 10px;
+    width: 73%;
+    align-items: flex-start;
+}
