@@ -2,6 +2,9 @@ import React,{useEffect,useState} from 'react'
 import '../CSS/LeftComponent.css'
 import logo from '../image/travel.png'
 import NameComponent from './NameComponent';
+import ContactUS from './ContactUS';
+import Skills from './Skills';
+import Man from './Man';
 
 function LeftComponent() {
 
@@ -49,20 +52,28 @@ function LeftComponent() {
   const [uiColor, setUiColor] = useState(null)
   useEffect(() => {
     if(scrollPosition <348){
-      setUiColor('#008ae6');
+      setUiColor('#cc0052');
       setNameScreen(true);
+    } else {
+      setNameScreen(false)
     }
-    else if(scrollPosition >=348 && scrollPosition <=872){
+    if(scrollPosition >=348 && scrollPosition <=872){
       setUiColor('#5370c6');
       setEducation(true);
+    } else {
+      setEducation(false)
     }
-    else if(scrollPosition >= 872 && scrollPosition <=1370){
+    if(scrollPosition >= 872 && scrollPosition <=1370){
       setUiColor('#729974')
       setSkills(true);
+    } else {
+      setSkills(false)
     }
-    else if(scrollPosition >= 1370 ){
+    if(scrollPosition >= 1370 ){
       setUiColor('#002D40 ');
       setWorkExprience(true)
+    } else {
+      setWorkExprience(false)
     }
   })
   
@@ -71,7 +82,9 @@ function LeftComponent() {
       <div style={{backgroundColor:`${uiColor}`}} className='Left_component' >
         <div className='road-animation' >
           <div className='rain' >
-            <NameComponent />
+            {skills ? <Skills /> : ''}
+            {workExprience ? <ContactUS /> : ''}
+            {nameScreen ? <Man /> : ''}
           </div>
         </div> 
       </div>

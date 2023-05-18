@@ -1,0 +1,24 @@
+.contact {
+    display: flex;
+    position: relative;
+}
+
+.man {
+    position: absolute;
+}
+.laptop {
+    position: absolute;
+}
+.mail {
+    position: absolute;
+}
+.specdecoder {
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    
+}
+.specdecoder > img {
+    height: 40px;
+    width: 137px;
+}
