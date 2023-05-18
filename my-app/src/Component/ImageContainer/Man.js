@@ -1,5 +1,5 @@
 import React from 'react'
-import man from '../image/man.png'
+import man from '../../image/man.png'
 
 function Man() {
   return (

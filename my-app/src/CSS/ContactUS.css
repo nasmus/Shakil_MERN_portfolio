@@ -2,7 +2,6 @@
     display: flex;
     position: relative;
 }
-
 .man {
     position: absolute;
 }
@@ -10,6 +9,10 @@
     position: absolute;
 }
 .mail {
+    position: absolute;
+}
+
+.awards {
     position: absolute;
 }
 .specdecoder {

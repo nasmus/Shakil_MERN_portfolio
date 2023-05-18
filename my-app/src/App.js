@@ -1,6 +1,7 @@
 import './App.css';
 import EducationComponent from './Component/EducationComponent';
 import LeftComponent from './Component/LeftComponent';
+import PersonalWork from './Component/PersonalWork';
 import SkillsComponent from './Component/SkillsComponent';
 import WorkExprience from './Component/WorkExprience';
 
@@ -14,9 +15,10 @@ function App() {
           <h1>MD.NASMUS SHAHADAT</h1>
           <h4>FRONT END DEVELOPER</h4>
         </div>
-        <EducationComponent />
         <SkillsComponent />
+        <EducationComponent />
         <WorkExprience />
+        <PersonalWork />
       </div>
     </div>
   );
