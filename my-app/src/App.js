@@ -1,4 +1,6 @@
 import './App.css';
+import Achievement from './Component/Achievement';
+import ContactUs from './Component/ContactUs';
 import EducationComponent from './Component/EducationComponent';
 import LeftComponent from './Component/LeftComponent';
 import PersonalWork from './Component/PersonalWork';
@@ -19,6 +21,8 @@ function App() {
         <EducationComponent />
         <WorkExprience />
         <PersonalWork />
+        <Achievement />
+        <ContactUs />
       </div>
     </div>
   );

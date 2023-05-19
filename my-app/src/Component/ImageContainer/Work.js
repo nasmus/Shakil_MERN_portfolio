@@ -8,7 +8,7 @@ import specdecoder from '../../image/specdecoder.png'
 import degree from '../../image/degree.png';
 import awards from '../../image/awards.png';
 
-function PersonalProject() {
+function Work() {
   return (
     <div className='contact' >
         <div className='man' >
@@ -19,21 +19,17 @@ function PersonalProject() {
             <img src={skills} />
         </div>
         
-        <div className='laptop' >
+        <div className='laptop' data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" >
             <img src={laptop} />
         </div>
-        <div className='skills' style={{position:'absolute'}}>
+        <div className='degree' style={{position:'absolute'}}>
           <img src={degree} />
-        </div>
-        
-        <div className='specdecoder' data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine" >
-            <img src={specdecoder} />
         </div>
         
     </div>
   )
 }
 
-export default PersonalProject
+export default Work

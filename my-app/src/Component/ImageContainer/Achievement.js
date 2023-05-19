@@ -8,7 +8,7 @@ import specdecoder from '../../image/specdecoder.png'
 import degree from '../../image/degree.png';
 import awards from '../../image/awards.png';
 
-function PersonalProject() {
+export default function Achievement() {
   return (
     <div className='contact' >
         <div className='man' >
@@ -26,14 +26,13 @@ function PersonalProject() {
           <img src={degree} />
         </div>
         
-        <div className='specdecoder' data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine" >
+        <div className='specdecoder' >
             <img src={specdecoder} />
         </div>
-        
+        <div className='awards' data-aos="fade-up"
+     data-aos-duration="500" >
+            <img src={awards} />
+        </div>
     </div>
   )
 }
-
-export default PersonalProject

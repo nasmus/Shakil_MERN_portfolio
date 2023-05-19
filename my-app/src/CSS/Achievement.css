@@ -1,0 +1,8 @@
+.achievement {
+    padding-top: 60px;
+    padding-bottom: 200px;
+    background: #33bbff;
+}
+.achievement__section >h1 {
+    padding-bottom: 30px;
+}

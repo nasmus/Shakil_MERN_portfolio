@@ -22,7 +22,7 @@ function ContactUS() {
         <div className='laptop' >
             <img src={laptop} />
         </div>
-        <div className='skills' style={{position:'absolute'}}>
+        <div className='degree' style={{position:'absolute'}}>
           <img src={degree} />
         </div>
         
@@ -33,9 +33,7 @@ function ContactUS() {
             <img src={mail} />
         </div>
         
-        <div className='specdecoder' data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine" >
+        <div className='specdecoder' >
             <img src={specdecoder} />
         </div>
         <div className='awards' >

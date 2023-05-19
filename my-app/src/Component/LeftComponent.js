@@ -6,6 +6,10 @@ import ContactUS from './ImageContainer/ContactUS';
 import Skills from './ImageContainer/Skills';
 import Man from './ImageContainer/Man';
 import Degree from './ImageContainer/Degree';
+import PersonalProject from './ImageContainer/PersonalProject';
+import Achievement from './ImageContainer/Achievement';
+import Work from './ImageContainer/Work';
+
 function LeftComponent() {
 
 
@@ -38,6 +42,9 @@ function LeftComponent() {
   const [nameScreen, setNameScreen] = useState(false);
   const [skills, setSkills] = useState(false);
   const [workExprience, setWorkExprience] = useState(false);
+  const [personalProject, setPersonalProject] = useState(false);
+  const [achievement, setAchievement] = useState(false);
+  const [contact, setContact] = useState(false);
   useEffect(() => {
     const handleScroll =() => {
       setScrollPosition(window.scrollY)
@@ -58,33 +65,56 @@ function LeftComponent() {
       setNameScreen(false)
     }
     if(scrollPosition >=349 && scrollPosition <=872){
-      setUiColor('#5370c6');
+      setUiColor('#729974');
       setEducation(true);
     } else {
       setEducation(false)
     }
     if(scrollPosition >= 872 && scrollPosition <=1370){
-      setUiColor('#729974')
+      setUiColor('#5370c6')
       setSkills(true);
     } else {
       setSkills(false)
     }
-    if(scrollPosition >= 1370 ){
-      setUiColor('#002D40 ');
+    if(scrollPosition >= 1370 && scrollPosition <= 1830){
+      setUiColor('#002D40');
       setWorkExprience(true)
     } else {
       setWorkExprience(false)
     }
+    if(scrollPosition >=1830 && scrollPosition<= 2417){
+      setUiColor('#996600');
+      setPersonalProject(true)
+    } else {
+      setPersonalProject(false)
+    }
+    if(scrollPosition >= 2417 && scrollPosition <= 3085){
+      setUiColor('#005c99')
+      setAchievement(true);
+    } else {
+      setAchievement(false)
+    }
+    if(scrollPosition >= 3085){
+      setUiColor('#1f601f')
+      setContact(true);
+    } else {
+      setContact(false)
+    }
+    
   })
   
   return (
     <div>
       <div style={{backgroundColor:`${uiColor}`}} className='Left_component' >
         <div className='road-animation' >
+          {console.log(scrollPosition)}
           {nameScreen ? <Man /> : ''}
           {education ? <Degree /> : ''  }
           {skills ? <Skills /> : ''}
-          {workExprience ? <ContactUS /> : ''} 
+          {workExprience ?  <Work /> : ''}
+          {personalProject ? <PersonalProject /> : ''} 
+          {achievement ? <Achievement /> : ''}
+          {contact ? <ContactUS /> : ''}
         </div> 
       </div>
     </div>

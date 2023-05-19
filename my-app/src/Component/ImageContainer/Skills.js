@@ -1,15 +1,18 @@
 import React from 'react'
-import '../../CSS/skills.css'
+import '../../CSS/ContactUS.css';
 import man from '../../image/man.png';
 import skills from '../../image/skills.png'
 import degree from '../../image/degree.png'
 export default function Skills() {
   return (
-    <div className='skills' >
+    <div className='contact' >
         <div className='man' >
             <img src={man} />
         </div>
-        <div className='skills' style={{position:'absolute'}}>
+        <div className='degree' 
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" style={{position:'absolute'}}>
           <img src={degree} />
         </div>
         <div className='skills' >
