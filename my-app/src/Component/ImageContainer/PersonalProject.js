@@ -3,10 +3,9 @@ import man from '../../image/man.png'
 import skills from '../../image/skills.png';
 import '../../CSS/ContactUS.css';
 import laptop from '../../image/laptop.png';
-import mail from '../../image/mail.png';
-import specdecoder from '../../image/specdecoder.png'
 import degree from '../../image/degree.png';
 import awards from '../../image/awards.png';
+import moneybag from '../../image/moneybag.png'
 
 function PersonalProject() {
   return (
@@ -26,10 +25,10 @@ function PersonalProject() {
           <img src={degree} />
         </div>
         
-        <div className='specdecoder' data-aos="fade-right"
+        <div className='moneybag' data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine" >
-            <img src={specdecoder} />
+            <img src={moneybag} />
         </div>
         
     </div>

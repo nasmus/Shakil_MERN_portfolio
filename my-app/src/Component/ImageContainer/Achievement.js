@@ -3,10 +3,9 @@ import man from '../../image/man.png'
 import skills from '../../image/skills.png';
 import '../../CSS/ContactUS.css';
 import laptop from '../../image/laptop.png';
-import mail from '../../image/mail.png';
-import specdecoder from '../../image/specdecoder.png'
 import degree from '../../image/degree.png';
 import awards from '../../image/awards.png';
+import moneybag from '../../image/moneybag.png';
 
 export default function Achievement() {
   return (
@@ -26,8 +25,8 @@ export default function Achievement() {
           <img src={degree} />
         </div>
         
-        <div className='specdecoder' >
-            <img src={specdecoder} />
+        <div className='moneybag' >
+            <img src={moneybag} />
         </div>
         <div className='awards' data-aos="fade-up"
      data-aos-duration="500" >

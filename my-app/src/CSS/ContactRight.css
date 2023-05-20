@@ -1,8 +1,59 @@
 .contactUs {
     padding-top: 60px;
     padding-bottom: 200px;
-    background-color: rgb(113, 230, 191);
+    background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
 }
 .contactUs__section > h1 {
     padding-bottom: 30px;
 }
+.contact__right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    
+}
+.contact__inputtText {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+    
+}
+.contact__inputtText > input {
+    padding: 10px;
+    border: 2px solid rgb(37, 142, 142);
+    background: transparent;
+    
+    
+}
+.contact__inputtText > input:focus {
+    border: 2px solid orange;
+}
+.contact__inputTextarea > textarea{
+    border: 2px solid rgb(37, 142, 142);
+    background: transparent;
+}
+.contact__inputTextarea > textarea :focus {
+    border: 2px solid rgb(37, 142, 142);
+}
+.contact__inputfield{
+    display: flex;
+    gap: 20px;
+    
+}
+.contact__button {
+    padding-top: 30px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+.contact__button > p {
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+

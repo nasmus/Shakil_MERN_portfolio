@@ -9,15 +9,12 @@ function EducationComponent() {
           <h1 style={{paddingBottom:"40px"}} >Education</h1>
           <div className='Education__contant' >
             <div className='Education_contant__title' >
-                <h1 >SSC</h1>
-                <h4>JAN2010 - MAY2012</h4>
+                <h1>B.Sc</h1>
+                <h4>AUG2014 - JNU2020</h4>
             </div>
             <div className='Education_contant__background' >
                 <ul>
-                  <li><p>Built over fifty new websites over the course of eight months</p></li>
-                </ul>
-                <ul>
-                  <li><p>Built over fifty new websites over the course of eight months</p></li>
+                  <li><p>American International University-Bangladesh (AIUB)</p></li>
                 </ul>
             </div>
           </div>
@@ -27,7 +24,16 @@ function EducationComponent() {
                 <h4>JUN2012 - JUN2014</h4>
             </div>
             <div className='Education_contant__background' >
-                <ul><li><p>Built over fifty new websites over the course of eight months</p></li></ul>
+                <ul><li><p>, Ullapara science college, Sirajganj</p></li></ul>
+            </div>
+          </div>
+          <div className='Education__contant' >
+            <div className='Education_contant__title' >
+                <h1>SSC</h1>
+                <h4>JUN2010 - JUN2012</h4>
+            </div>
+            <div className='Education_contant__background' >
+                <ul><li><p> Ullapara merchant pilot high school, Sirajganj,</p></li></ul>
             </div>
           </div>
           </div>

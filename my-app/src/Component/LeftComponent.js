@@ -1,7 +1,5 @@
 import React,{useEffect,useState} from 'react'
 import '../CSS/LeftComponent.css'
-import logo from '../image/travel.png'
-import NameComponent from './NameComponent';
 import ContactUS from './ImageContainer/ContactUS';
 import Skills from './ImageContainer/Skills';
 import Man from './ImageContainer/Man';
@@ -83,7 +81,7 @@ function LeftComponent() {
       setWorkExprience(false)
     }
     if(scrollPosition >=1830 && scrollPosition<= 2417){
-      setUiColor('#996600');
+      setUiColor('#ff5500');
       setPersonalProject(true)
     } else {
       setPersonalProject(false)
@@ -95,7 +93,7 @@ function LeftComponent() {
       setAchievement(false)
     }
     if(scrollPosition >= 3085){
-      setUiColor('#1f601f')
+      setUiColor('#258e8e')
       setContact(true);
     } else {
       setContact(false)

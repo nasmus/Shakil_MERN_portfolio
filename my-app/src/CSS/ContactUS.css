@@ -22,6 +22,15 @@
     
 }
 .specdecoder > img {
-    height: 40px;
+    height: 100px;
     width: 137px;
+}
+.moneybag {
+    position: absolute;
+    top: 320px;
+    left: 47px;
+}
+.moneybag > img {
+    height: 150px;
+    width: 150px;
 }

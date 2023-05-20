@@ -1,7 +1,7 @@
 .Right_component__skills {
     padding-top: 70px;
     padding-bottom: 200px;
-    background-color: rgba(114, 153, 116, 0.5);
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
   } 
   .Right_component_skills__component {
     display: flex;

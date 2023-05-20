@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <LeftComponent />
       <div className='Right_component'>
-        <div style={{color:'#ff8000'}} className='Right_component__titel' >
+        <div style={{color:'#e6e6e6'}} className='Right_component__titel' >
           <h1>MD.NASMUS SHAHADAT</h1>
           <h4>FRONT END DEVELOPER</h4>
         </div>

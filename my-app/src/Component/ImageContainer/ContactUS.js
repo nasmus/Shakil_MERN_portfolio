@@ -7,6 +7,7 @@ import mail from '../../image/mail.png';
 import specdecoder from '../../image/specdecoder.png'
 import degree from '../../image/degree.png';
 import awards from '../../image/awards.png';
+import moneybag from '../../image/moneybag.png'
 
 function ContactUS() {
   return (
@@ -33,8 +34,8 @@ function ContactUS() {
             <img src={mail} />
         </div>
         
-        <div className='specdecoder' >
-            <img src={specdecoder} />
+        <div className='moneybag' >
+            <img src={moneybag} />
         </div>
         <div className='awards' >
             <img src={awards} />
