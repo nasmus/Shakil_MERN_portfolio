@@ -1,7 +1,6 @@
 import React from 'react';
 import '../CSS/ContactRight.css';
 import { Button } from '@mui/material';
-import { DeleteIcon } from '@mui/icons-material';
 
 export default function ContactUs() {
   return (
@@ -11,19 +10,19 @@ export default function ContactUs() {
             <div className="contact__right" >
                 <div className="contact__inputfield">
                     <div className="contact__inputtText">
-                        <input type="text" placeholder="Name" className="contact__input" />
-                        <input type="text" placeholder="Email" className="contact__input" />
-                        <input type="text" placeholder="Phone" className="contact__input" />
+                        <input type="text" placeholder="Name" />
+                        <input type="text" placeholder="Email" />
+                        <input type="text" placeholder="Phone" />
                     </div>
                     <div className="contact__inputTextarea">
-                        <textarea placeholder="Message" cols="30" rows="9"  ></textarea>
+                        <textarea className='contact_textarea' placeholder="Message" cols="30" rows="9"  ></textarea>
                     </div>
                 </div>
                 <div className="contact__button">
-                    <Button variant="outlined" startIcon={<DeleteIcon />}>
-                        Delete
-                    </Button>
-                </div>
+                        <Button color="success" >
+                            Send Message
+                        </Button>
+                    </div>
             </div>
         </div>
     </div>

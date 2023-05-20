@@ -27,6 +27,9 @@
     padding: 10px;
     border: 2px solid rgb(37, 142, 142);
     background: transparent;
+    outline: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
     
     
 }
@@ -36,9 +39,13 @@
 .contact__inputTextarea > textarea{
     border: 2px solid rgb(37, 142, 142);
     background: transparent;
+    outline: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
 }
-.contact__inputTextarea > textarea :focus {
-    border: 2px solid rgb(37, 142, 142);
+.contact_textarea:focus {
+    border: 2px solid orange;
 }
 .contact__inputfield{
     display: flex;
