@@ -1,7 +1,12 @@
 .achievement {
     padding-top: 60px;
     padding-bottom: 200px;
-    background-color: #33bbff;
+    background: linear-gradient(
+        150deg,
+        rgb(91, 155, 219) 0%,
+        rgb(71, 140, 183) 35%,
+        rgb(92, 137, 199) 100%
+    );
 }
 .achievement__section >h1 {
     padding-bottom: 30px;
