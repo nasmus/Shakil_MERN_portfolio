@@ -5,10 +5,12 @@
 }
 .personal__work__container > h1 {
     padding-bottom: 100px;
+    color: #0c2557;
 }
 
 *{
     box-sizing: border-box;
+    
 }
 .PortfolioPanel > h1 {
     text-align: center;
@@ -73,24 +75,6 @@
     text-align: center;
 }
 
-.portfolioPage__button > a {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 700;    
-    color: rgb(73, 72, 72);
-    font-family: cascadia code;
-    text-align: center;
-}
-
-.portfolioPage__Link {
-    text-decoration: none;
-    font-family: cascadia code;
-    text-align: center;
-    color: #555;
-    font-size: 18px;
-    font-weight: 700;
-}
-
 .portfolioPage__title > h3 {
     color: #ca5f1e;
     font-family: cascadia code;
@@ -102,7 +86,7 @@
     align-items: center;
 }
 
-.portfolioPage__title > h3 > img {
+.portfolioPage__title > img {
     width: 200px;
 }
 

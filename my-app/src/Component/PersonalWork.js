@@ -9,7 +9,7 @@ function PersonalWork() {
           <h1>DREAM</h1>
             <div className="portfolioPage__body" data-aos="fade-down-left" >
               <div className="portfolioPage__title">
-                <h3> <img src={moneybaggo} /> </h3>
+                 <img src={moneybaggo} />
               </div>   
             </div> 
         </div>
