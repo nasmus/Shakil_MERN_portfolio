@@ -14,10 +14,10 @@ function WorkExprience() {
             </div>
             <div className='WorkExprience_contant__background' >
                 <ul>
-                  <li><p>Built over fifty new websites over the course of eight months</p></li>
+                  <li><p>Design & Building a micro niche multivendor ecommerce website using ( MERN stack )</p></li>
                 </ul>
                 <ul>
-                  <li><p>Built over fifty new websites over the course of eight months</p></li>
+                  <li><p>develop is as a solo developer</p></li>
                 </ul>
             </div>
           </div>
@@ -33,9 +33,17 @@ function WorkExprience() {
                 <ul><li><p>Develope backend functionality for existing laravel website .</p></li></ul>
             </div>
           </div>
-          
+          <div className='WorkExprience__contant' >
+            <div className='WorkExprience_contant__title' >
+                <h2>HelmetTips</h2>
+                <h4>FEB2021 - JUN2023</h4>
+            </div>
+            <div className='WorkExprience_contant__background' >
+                <ul><li><p>I was develope this website in wordpress for affiliate marketing.</p></li></ul>
+                <ul><li><p>It was successfully run from 2021 April - 2023 january</p></li></ul>
+            </div>
+          </div>
       </div>
-        
     </div>
   )
 }

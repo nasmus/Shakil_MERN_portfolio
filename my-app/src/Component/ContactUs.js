@@ -1,6 +1,10 @@
 import React from 'react';
 import '../CSS/ContactRight.css';
 import { Button } from '@mui/material';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 export default function ContactUs() {
   return (
