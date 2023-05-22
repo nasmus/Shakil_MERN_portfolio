@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 .achievement {
+    position: relative;
     padding-top: 60px;
     padding-bottom: 100px;
     background: linear-gradient(
@@ -10,6 +11,15 @@
         rgb(71, 140, 183) 35%,
         rgb(92, 137, 199) 100%
     );
+}
+.container > img {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 1;
 }
 .achievement__section >h1 {
     padding-bottom: 30px;
@@ -23,19 +33,44 @@
     padding: 10px 25px;
     position: relative;
     width: 50%;
-    
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+    z-index: 1;
+}
 
+@keyframes movedown{
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+        
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
-.container > img {
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    right: -20px;
-    top: 32px;
-    z-index: 10;
+
+.container:nth-child(1){
+    animation-delay: 0s;
 }
+.container:nth-child(2){
+    animation-delay: 1s;
+}
+.container:nth-child(3){
+    animation-delay: 2s;
+}
+.container:nth-child(4){
+    animation-delay: 3s;
+}
+.container:nth-child(5){
+    animation-delay: 4s;
+}
+.container:nth-child(6){
+    animation-delay: 5s;
+}
+
 .text-box {
+    margin-left: 10px;
     padding: 5px 10px;
     background: #fff;
     position: relative;
@@ -60,6 +95,46 @@
     top: 0;
     margin-left: 1.5px;
     left: 50%;
-    z-index: -1px;
+    animation: moveline 6s linear forwards;
+    z-index: 0;
     
 }
+@keyframes moveline{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+.text-box > h2 {
+    font-weight: 600px;
+}
+.text-box > small {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.Left-container-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff;
+    right: -15px;
+}
+.Right-container-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -15px;
+}
+

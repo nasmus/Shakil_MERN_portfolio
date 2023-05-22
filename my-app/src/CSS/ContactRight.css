@@ -25,7 +25,7 @@
 }
 .contact__inputtText > input {
     padding: 10px;
-    border: 2px solid rgb(37, 142, 142);
+    border: 2px solid #fff;
     background: transparent;
     outline: none;
     -webkit-transition: 0.5s;
@@ -37,7 +37,7 @@
     border: 2px solid orange;
 }
 .contact__inputTextarea > textarea{
-    border: 2px solid rgb(37, 142, 142);
+    border: 2px solid #fff;
     background: transparent;
     outline: none;
     -webkit-transition: 0.5s;

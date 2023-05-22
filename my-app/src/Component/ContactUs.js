@@ -23,7 +23,7 @@ export default function ContactUs() {
                     </div>
                 </div>
                 <div className="contact__button">
-                        <Button color="success" >
+                        <Button style={{color:'white'}} >
                             Send Message
                         </Button>
                     </div>

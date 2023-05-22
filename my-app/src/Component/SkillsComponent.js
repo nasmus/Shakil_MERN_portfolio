@@ -3,8 +3,7 @@ import "../CSS/SkillComponent.css";
 
 function SkillsComponent() {
   const techStack = ["React.js", "Express JS", "Redux", "Node.js"];
-  const languages = ["React.js", "Express JS", "Redux", "Node.js"];
-  const backendStack = ["React.js", "Express JS", "Redux", "Node.js","JWT Token"];
+  const backendStack = ["Context Api","JWT Token","MongoDb"];
   return (
     <div>
       <div className="Right_component__skills">
