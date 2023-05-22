@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .achievement {
     padding-top: 60px;
     padding-bottom: 100px;
@@ -10,4 +13,53 @@
 }
 .achievement__section >h1 {
     padding-bottom: 30px;
+}
+.achievement__content {
+    position: relative;
+    margin: 50px auto;
+}
+
+.container {
+    padding: 10px 25px;
+    position: relative;
+    width: 50%;
+    
+
+}
+.container > img {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+.text-box {
+    padding: 5px 10px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.Left-container {
+    left: 0;
+}
+.Right-container {
+    left: 50%;
+}
+.Right-container >img {
+    left: -10px;
+}
+.achievement__content::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 6px;
+    background-color: #ffffff;
+    top: 0;
+    margin-left: 1.5px;
+    left: 50%;
+    z-index: -1px;
+    
 }
