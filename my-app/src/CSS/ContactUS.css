@@ -34,3 +34,15 @@
     height: 150px;
     width: 150px;
 }
+@media only screen and (max-width:780px) {
+    
+    .contact__right {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .contact__inputfield{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}

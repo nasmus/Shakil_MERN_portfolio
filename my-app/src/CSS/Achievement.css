@@ -76,6 +76,13 @@
     position: relative;
     border-radius: 6px;
     font-size: 15px;
+    background: linear-gradient(
+        150deg,
+        rgb(106, 197, 203) 0%,
+        rgb(113, 181, 223) 35%,
+        rgb(117, 218, 236) 100%
+    );
+    box-shadow: 3px 3px 7px #cbced1, -3px -3px 7px #ffffff;
 }
 .Left-container {
     left: 0;

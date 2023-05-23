@@ -28,8 +28,8 @@
     border: 2px solid #fff;
     background: transparent;
     outline: none;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    -webkit-transition: 1s;
+    transition: 1s;
     
     
 }
@@ -40,8 +40,8 @@
     border: 2px solid #fff;
     background: transparent;
     outline: none;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    -webkit-transition: 1s;
+    transition: 1s;
     
 }
 .contact_textarea:focus {

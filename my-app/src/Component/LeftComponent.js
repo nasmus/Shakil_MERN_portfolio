@@ -11,7 +11,7 @@ import Work from './ImageContainer/Work';
 
 
 function LeftComponent() {
-  const { state, dispatch:ctxDispatch } = useContext(Store)
+  const {dispatch:ctxDispatch } = useContext(Store)
 
   const [scrollPosition, setScrollPosition] = useState(0)
   const [education, setEducation] = useState(false);
@@ -79,7 +79,7 @@ function LeftComponent() {
     }
     ctxDispatch({type:'DATA_SEND',payload:scrollPosition})
     
-  },[scrollPosition])
+  },[ctxDispatch, scrollPosition])
   
   return (
     <div>

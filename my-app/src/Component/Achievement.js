@@ -1,7 +1,6 @@
 import React,{useContext, useEffect,useState} from 'react'
 import '../CSS/Achievement.css'
 import TestAchievement from './TestAchievement';
-import ContactUS from './ImageContainer/ContactUS';
 import { Store } from '../Store';
 
 export default function Achievement() {
@@ -13,14 +12,14 @@ export default function Achievement() {
   useEffect(() => {
     if(data >= 2417 && data <= 3085){
       setIsActive(true)
-    }
+     }
   },[data])
 
   return (
     <div className='achievement'>
         <div data-aos="fade-up" style={{paddingLeft:'30px'}} className='achievement__section '>
-            <h1>Achievement</h1>
-            {isActive ? <TestAchievement /> :''}
+            <h1 style={{color:'white'}} >Achievement & Certification</h1>
+            {isActive ? <TestAchievement /> : ''}
         </div>
     </div>
   )

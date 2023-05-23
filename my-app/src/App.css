@@ -18,6 +18,13 @@
   padding-left: 30px;
   padding-bottom: 50px;
 }
-
-
-
+@media (max-width: 768px) {
+  .Right_component {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .leftComponent {
+    display: none;
+  }
+}
