@@ -1,39 +1,17 @@
-import React,{useEffect,useState} from 'react'
+import React,{useEffect,useState,useContext} from 'react'
 import '../CSS/LeftComponent.css'
 import ContactUS from './ImageContainer/ContactUS';
 import Skills from './ImageContainer/Skills';
 import Man from './ImageContainer/Man';
 import Degree from './ImageContainer/Degree';
+import { Store } from '../Store';
 import PersonalProject from './ImageContainer/PersonalProject';
 import Achievement from './ImageContainer/Achievement';
 import Work from './ImageContainer/Work';
 
+
 function LeftComponent() {
-
-
-    // const [position, setPosition] = useState(0);
-    // const boxWidth = 100;
-    // useEffect(() => {
-    //   const handleScroll = (event) => {
-    //     // Calculate the new position based on the scroll event
-    //     const newPosition = position + event.deltaY;
-  
-    //     // Update the position
-    //     setPosition(newPosition);
-    //   };
-  
-    //   // Add event listener for the "wheel" event
-    //   window.addEventListener('wheel', handleScroll);
-  
-    //   // Clean up the event listener on component unmount
-    //   return () => {
-    //     window.removeEventListener('wheel', handleScroll);
-    //   };
-    // }, [position]);
-
-
-  
-
+  const { state, dispatch:ctxDispatch } = useContext(Store)
 
   const [scrollPosition, setScrollPosition] = useState(0)
   const [education, setEducation] = useState(false);
@@ -52,6 +30,7 @@ function LeftComponent() {
     return () => {
       window.removeEventListener('scroll',handleScroll)
     }
+    
   },[])
 
   const [uiColor, setUiColor] = useState(null)
@@ -98,20 +77,20 @@ function LeftComponent() {
     } else {
       setContact(false)
     }
+    ctxDispatch({type:'DATA_SEND',payload:scrollPosition})
     
-  })
+  },[scrollPosition])
   
   return (
     <div>
       <div style={{backgroundColor:`${uiColor}`}} className='Left_component' >
         <div className='road-animation' >
-          {console.log(scrollPosition)}
           {nameScreen ? <Man /> : ''}
           {education ? <Degree /> : ''  }
           {skills ? <Skills /> : ''}
           {workExprience ?  <Work /> : ''}
           {personalProject ? <PersonalProject /> : ''} 
-          {achievement ? <Achievement /> : ''}
+          {achievement ? <Achievement name='shakil' /> : ''}
           {contact ? <ContactUS /> : ''}
         </div> 
       </div>

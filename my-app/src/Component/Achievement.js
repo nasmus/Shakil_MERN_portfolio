@@ -1,73 +1,26 @@
-import React from 'react'
+import React,{useContext, useEffect,useState} from 'react'
 import '../CSS/Achievement.css'
-import google from '../image/google.png'
+import TestAchievement from './TestAchievement';
+import ContactUS from './ImageContainer/ContactUS';
+import { Store } from '../Store';
 
 export default function Achievement() {
+  const [isActive, setIsActive] = useState(false);
+  const {state} = useContext(Store);
+  const {data} = state;
+
+  console.log("scrolldata",data);
+  useEffect(() => {
+    if(data >= 2417 && data <= 3085){
+      setIsActive(true)
+    }
+  },[data])
+
   return (
     <div className='achievement'>
-        <div data-aos="fade-up" style={{paddingLeft:'30px'}} className='achievement__section'>
+        <div data-aos="fade-up" style={{paddingLeft:'30px'}} className='achievement__section '>
             <h1>Achievement</h1>
-            <div className='achievement__content'>
-              <div className='container Left-container '>
-                <img src={google} />
-                <div className='text-box'>
-                  <h2>Aiub</h2>
-                  <small>2018 - 2019</small>
-                  <p>this is the p tag for discription</p>
-                  <span className='Left-container-arrow' ></span>
-                </div>                
-              </div>
-
-              <div className='container Right-container'>
-              <img src={google} />
-                <div className='text-box'>
-                  <h2>Aiub</h2>
-                  <small>2018 - 2019</small>
-                  <p>this is the p tag for discription</p>
-                  <span className='Right-container-arrow' ></span>
-                </div>                
-              </div>
-
-              <div className='container Left-container'>
-              <img src={google} />
-                <div className='text-box'>
-                  <h2>Aiub</h2>
-                  <small>2018 - 2019</small>
-                  <p>this is the p tag for discription</p>
-                  <span className='Left-container-arrow' ></span>
-                </div>                
-              </div>
-
-              <div className='container Right-container'>
-              <img src={google} />
-                <div className='text-box'>
-                  <h2>Aiub</h2>
-                  <small>2018 - 2019</small>
-                  <p>this is the p tag for discription</p>
-                  <span className='Right-container-arrow' ></span>
-                </div>                
-              </div>
-
-              <div className='container Left-container'>
-              <img src={google} />
-                <div className='text-box'>
-                  <h2>Aiub</h2>
-                  <small>2018 - 2019</small>
-                  <p>this is the p tag for discription</p>
-                  <span className='Left-container-arrow' ></span>
-                </div>                
-              </div>
-
-              <div className='container Right-container'>
-              <img src={google} />
-                <div className='text-box'>
-                  <h2>Aiub</h2>
-                  <small>2018 - 2019</small>
-                  <p>this is the p tag for discription</p>
-                  <span className='Right-container-arrow' ></span>
-                </div>                
-              </div>
-            </div>
+            {isActive ? <TestAchievement /> :''}
         </div>
     </div>
   )

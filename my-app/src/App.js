@@ -8,6 +8,7 @@ import SkillsComponent from './Component/SkillsComponent';
 import WorkExprience from './Component/WorkExprience';
 
 function App() {
+
   
   return (
     <div className="App">
@@ -21,7 +22,7 @@ function App() {
         <EducationComponent />
         <WorkExprience />
         <PersonalWork />
-        <Achievement />
+        <Achievement name='shakil' /> 
         <ContactUs />
       </div>
     </div>
