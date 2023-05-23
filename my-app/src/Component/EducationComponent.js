@@ -24,7 +24,7 @@ function EducationComponent() {
                 <h4>JUN2012 - JUN2014</h4>
             </div>
             <div className='Education_contant__background' >
-                <ul><li><p>, Ullapara science college, Sirajganj</p></li></ul>
+                <ul><li><p>, Ullapara Science College, Sirajganj</p></li></ul>
             </div>
           </div>
           <div className='Education__contant' >
@@ -33,7 +33,7 @@ function EducationComponent() {
                 <h4>JUN2010 - JUN2012</h4>
             </div>
             <div className='Education_contant__background' >
-                <ul><li><p> Ullapara merchant pilot high school, Sirajganj,</p></li></ul>
+                <ul><li><p> Ullapara Merchant Pilot High School, Sirajganj,</p></li></ul>
             </div>
           </div>
           </div>
