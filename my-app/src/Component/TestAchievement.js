@@ -66,7 +66,7 @@ function TestAchievement() {
                   <span className='Right-container-arrow' ></span>
                 </div>                
               </div>
-            </div>
+        </div>
     </div>
   )
 }
