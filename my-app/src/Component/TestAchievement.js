@@ -16,7 +16,6 @@ function TestAchievement() {
                   <span className='Left-container-arrow' ></span>
                 </div>                
               </div>
-              {console.log('submit')}
               <div className='container Right-container'>
               <img src={aiub} />
                 <div className='text-box'>
