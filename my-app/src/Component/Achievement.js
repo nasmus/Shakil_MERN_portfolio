@@ -17,10 +17,11 @@ export default function Achievement() {
 
   return (
     <div className='achievement'>
-        <div data-aos="fade-up" style={{paddingLeft:'30px'}} className='achievement__section '>
+        <div data-aos="fade-up" style={{paddingLeft:'30px'}} className='achievement__section'>
             <h1 style={{color:'white'}} >Achievement & Certification</h1>
             {isActive ? <TestAchievement /> : ''}
         </div>
     </div>
   )
 }
+

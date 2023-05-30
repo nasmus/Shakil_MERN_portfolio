@@ -102,7 +102,7 @@
     top: 0;
     margin-left: 1.5px;
     left: 50%;
-    animation: moveline 6s linear forwards;
+    animation: moveline 2s linear forwards;
     z-index: 0;
     
 }
