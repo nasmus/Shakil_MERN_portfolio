@@ -37,6 +37,7 @@
     height: 10vh;
     pointer-events: none;
 }
+
 @media (prefers-reduced-motion: no-preference) {
     .work__logo > img  {
       animation: App-logo-spin infinite 5s linear;

@@ -6,12 +6,11 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import message_logo from '../image/message_png.png';
 
 export default function ContactUs() {
     const form = useRef();
     const sendEmail = (event) => {
-        
-    
         emailjs.sendForm('service_kg0oz4d', 'template_uzbxh85', form.current, 'ZNX61eK0qbgx-CjH4')
           .then((result) => {
               console.log(result.text);
@@ -24,7 +23,10 @@ export default function ContactUs() {
   return (
     <div className='contactUs' >
         <div data-aos="fade-up" style={{paddingLeft:'40px'}} className='contactUs__section'>
-            <h1 style={{color:'rgb(37, 142, 142)'}} >Write Me A Message</h1>
+            <div className='contactUs__logo'>
+                <img src={message_logo} alt='message_logo' />
+                <h1 style={{color:'rgb(37, 142, 142)'}} >Write Me A Message</h1>
+            </div>
             <form ref={form} onSubmit={sendEmail} >
             <div className="contact__right" >
                 <div className="contact__inputfield">
