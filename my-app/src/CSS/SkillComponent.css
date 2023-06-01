@@ -13,3 +13,24 @@
   .Right_component_skills__right {
     width: 50%;
   }
+  .skills_logo {
+    display: flex;
+    pointer-events: none;
+  }
+  .skills_logo > img {
+    width: 12vh;
+    
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .skills_logo > img {
+      animation: App-logo-spin infinite 3s linear;
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

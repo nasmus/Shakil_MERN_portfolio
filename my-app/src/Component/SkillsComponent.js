@@ -1,5 +1,6 @@
 import React from "react";
 import "../CSS/SkillComponent.css";
+import logo from '../image/logo.svg'
 
 function SkillsComponent() {
   const techStack = ["React.js", "Express JS", "Redux", "Node.js"];
@@ -8,7 +9,11 @@ function SkillsComponent() {
     <div>
       <div className="Right_component__skills"  >
         <div style={{ paddingLeft: "30px" }} data-aos="fade-up">
-          <h1 style={{color:'rgb(114, 153, 116)'}} >Skills</h1>
+          <div className="skills_logo">
+            <img src={logo} alt="logo" />
+            <h1 style={{color:'rgb(114, 153, 116)'}} >Skills</h1>
+          </div>
+          
           <div className="Right_component_skills__component">
             <div className="Right_component_skills__Left">
               <ul style={{ paddingBottom: "20px" }}>
