@@ -1,12 +1,16 @@
 import React from 'react'
 import '../CSS/EducationComponent.css'
+import education from '../image/education.png';
 
 function EducationComponent() {
   return (
     <div>
         <div className='Education' >
           <div style={{paddingLeft:'30px'}} data-aos="fade-up" >
-          <h1 style={{paddingBottom:"40px",color:'rgb(78, 92, 133)'}} >Education</h1>
+            <div className='education__logo' >
+              <img src={education} alt='educationLogo' />
+              <h1 style={{color:'rgb(78, 92, 133)'}} >Education</h1>
+            </div>
           <div className='Education__contant' >
             <div className='Education_contant__title' >
                 <h1 style={{color:'rgb(78, 92, 133)'}} >B.Sc</h1>

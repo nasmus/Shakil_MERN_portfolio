@@ -1,18 +1,30 @@
 .Education{
-    padding-top: 75px;
-    padding-bottom: 100px;
-    background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+  padding-top: 75px;
+  padding-bottom: 100px;
+  background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
 
-  }
-  .Education__contant {
-    display: flex;
-    padding-bottom: 40px;
-  }
-  .Education_contant__title {
-    width: 27%;
-  }
-  .Education_contant__background {
-    padding-top: 10px;
-    width: 73%;
-    align-items: flex-start;
-  }
+}
+.Education__contant {
+  display: flex;
+  padding-bottom: 40px;
+}
+.Education_contant__title {
+  width: 27%;
+}
+.Education_contant__background {
+  padding-top: 10px;
+  width: 73%;
+  align-items: flex-start;
+}
+.education__logo {
+  pointer-events: none; 
+  display: flex;
+  padding-bottom: 40px;
+}
+.education__logo > img {
+  
+  padding-right: 20px; 
+  width: 12vh;
+}
+
+

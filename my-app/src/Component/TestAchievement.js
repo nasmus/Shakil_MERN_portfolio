@@ -8,7 +8,7 @@ function TestAchievement() {
     <div>
             <div className='achievement__content'>
               <div className='container Left-container '>
-                <img src={aiub} />
+                <img src={aiub} alt='aiub' />
                 <div className='text-box'>
                   <h2>AIUB</h2>
                   <small>OCT 2019</small>
@@ -17,7 +17,7 @@ function TestAchievement() {
                 </div>                
               </div>
               <div className='container Right-container'>
-              <img src={aiub} />
+              <img src={aiub} alt='aiub' />
                 <div className='text-box'>
                   <h2>Programing Contest</h2>
                   <small>2018</small>
