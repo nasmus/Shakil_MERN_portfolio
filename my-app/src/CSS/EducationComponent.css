@@ -22,9 +22,19 @@
   padding-bottom: 40px;
 }
 .education__logo > img {
-  
   padding-right: 20px; 
   width: 12vh;
+  animation: rotateYAnimation 5s infinite linear;
+  transform-style: preserve-3d;
+}
+
+@keyframes rotateYAnimation {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
 
 

@@ -1,12 +1,16 @@
 import React from 'react'
 import '../CSS/WorkExprience.css'
 import Badge from 'react-bootstrap/Badge';
+import work_logo from '../image/work_logo.png'
 
 function WorkExprience() {
   return (
     <div className='WorkExprience' >
       <div style={{paddingLeft:'30px'}} data-aos="fade-down" >
-      <h1 style={{paddingBottom:'40px',color:'rgb(0, 45, 64)'}} >Work</h1>
+        <div className='work__logo'>
+          <img src={work_logo} alt='work_logo' />
+          <h1 style={{paddingBottom:'40px',color:'rgb(0, 45, 64)'}} >Work</h1>
+        </div>
         <div className='WorkExprience__contant'  >
             <div className='WorkExprience_contant__title' >
                 <h2 style={{color:'rgb(0, 45, 64)'}}>MoneybagGo</h2>
