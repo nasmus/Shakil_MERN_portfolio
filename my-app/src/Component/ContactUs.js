@@ -47,6 +47,12 @@ export default function ContactUs() {
             </div>
             </form>
         </div>
+        <div className='footer'>
+            <a className='footer_a_tag' href='https://github.com/nasmus' ><GitHubIcon /></a>
+            <a className='footer_a_tag' href='https://www.facebook.com/nasmus1234/' ><FacebookIcon /></a>
+            <a className='footer_a_tag' href='https://www.linkedin.com/in/nasmus-shahadat-376295254/' ><LinkedInIcon /></a>
+            <a className='footer_a_tag' href='https://www.instagram.com/nasmus.shahadat/' ><InstagramIcon /></a>
+        </div>
     </div>
   )
 }

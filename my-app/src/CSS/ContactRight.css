@@ -63,4 +63,29 @@
     text-align: center;
     
 }
+.contactUs__logo > h1 {
+    padding-left: 20px;
+    
+}
+.contactUs__logo{
+    display: flex;
+    pointer-events: none;
+    padding-bottom: 40px ;
+}
+.contactUs__logo > img {
+    width: 10vh;
+}
 
+.footer {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: -1;
+    padding-right: 30px;
+}
+
+.footer_a_tag {
+    padding-left: 5px;
+    text-decoration: none;
+    color: aliceblue;
+}

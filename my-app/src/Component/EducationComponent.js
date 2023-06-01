@@ -9,7 +9,7 @@ function EducationComponent() {
           <div style={{paddingLeft:'30px'}} data-aos="fade-up" >
             <div className='education__logo' >
               <img src={education} alt='educationLogo' />
-              <h1 style={{color:'rgb(78, 92, 133)'}} >Education</h1>
+              <h1 style={{color:'rgb(78, 92, 133)',paddingLeft:'20px'}} >Education</h1>
             </div>
           <div className='Education__contant' >
             <div className='Education_contant__title' >
