@@ -89,3 +89,8 @@
     text-decoration: none;
     color: aliceblue;
 }
+.footer_a_tag:hover{
+    color: orange;
+    -webkit-transition: 1s;
+    transition: 1s;
+}

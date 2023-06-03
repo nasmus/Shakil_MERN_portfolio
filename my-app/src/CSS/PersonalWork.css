@@ -3,8 +3,7 @@
     padding-bottom: 100px;
     background-color: #d19bb7;
 }
-.personal__work__container > h1 {
-    padding-bottom: 100px;
+.dream_logo > h1 {
     color: #0c2557;
 }
 
@@ -96,7 +95,14 @@
     left: 0;
     right: 0;
 }
-
+.dream_logo {
+    display: flex;
+    padding-bottom: 100px;
+}
+.dream_logo > img {
+    width: 12vh;
+    padding-right: 20px;
+}
 @media screen and (max-width:780px) {
     .portfolioPage{
         display: grid;

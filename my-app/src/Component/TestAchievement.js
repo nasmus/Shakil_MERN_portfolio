@@ -20,14 +20,14 @@ function TestAchievement() {
               <img src={aiub} alt='aiub' />
                 <div className='text-box'>
                   <h2>Programing Contest</h2>
-                  <small>2018</small>
+                  <small>JUN 2018</small>
                   <p>Appreciation for participation in event</p>
                   <span className='Right-container-arrow' ></span>
                 </div>                
               </div>
 
-              {/* <div className='container Left-container'>
-              <img src={google} />
+              <div className='container Left-container'>
+              <img src={google} alt='achivement' />
                 <div className='text-box'>
                   <h2>Aiub</h2>
                   <small>2018 - 2019</small>
@@ -36,7 +36,7 @@ function TestAchievement() {
                 </div>                
               </div>
 
-              <div className='container Right-container'>
+              {/*<div className='container Right-container'>
               <img src={google} />
                 <div className='text-box'>
                   <h2>Programing Contest</h2>

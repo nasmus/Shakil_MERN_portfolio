@@ -2,6 +2,7 @@ import React,{useContext, useEffect,useState} from 'react'
 import '../CSS/Achievement.css'
 import TestAchievement from './TestAchievement';
 import { Store } from '../Store';
+import achievement from '../image/achievement.png'
 
 export default function Achievement() {
   const [isActive, setIsActive] = useState(false);
@@ -18,7 +19,10 @@ export default function Achievement() {
   return (
     <div className='achievement'>
         <div data-aos="fade-up" style={{paddingLeft:'30px'}} className='achievement__section'>
+          <div className='achievement_logo'>
+            <img src={achievement} alt='achievement' />
             <h1 style={{color:'white'}} >Achievement & Certification</h1>
+          </div>
             {isActive ? <TestAchievement /> : ''}
         </div>
     </div>

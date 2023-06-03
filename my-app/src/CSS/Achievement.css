@@ -20,6 +20,7 @@
     right: -20px;
     top: 32px;
     z-index: 1;
+    pointer-events: none;
 }
 
 .achievement__section >h1 {
@@ -92,6 +93,7 @@
     left: 50%;
 }
 .Right-container >img {
+    pointer-events: none;
     left: -10px;
 }
 .achievement__content::after {
@@ -103,9 +105,8 @@
     top: 0;
     margin-left: 1.5px;
     left: 50%;
-    animation: moveline 2s linear forwards;
+    animation: moveline 3s linear forwards;
     z-index: 0;
-    
 }
 @keyframes moveline{
     0%{
@@ -118,6 +119,11 @@
 
 .text-box > h2 {
     font-weight: 600px;
+    color: #005c99;
+}
+.text-box > p {
+    color: #094268;
+    font-weight: 500px;
 }
 .text-box > small {
     display: inline-block;
@@ -145,4 +151,23 @@
     border-right: 15px solid #fff;
     left: -15px;
 }
+.achievement_logo {
+    display: flex;
+}
+.achievement_logo > img {
+    width: 10vh;
+}
 
+@media (prefers-reduced-motion: no-preference) {
+    .Right-container >img,.container > img {
+      animation: App-logo-spin infinite 3s linear;
+    }
+}
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}

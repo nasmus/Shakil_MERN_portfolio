@@ -9,7 +9,7 @@ function WorkExprience() {
       <div style={{paddingLeft:'30px'}} data-aos="fade-down" >
         <div className='work__logo'>
           <img src={work_logo} alt='work_logo' />
-          <h1 style={{paddingBottom:'40px',paddingTop:'7px',color:'rgb(0, 45, 64)'}} >Work</h1>
+          <h1 style={{paddingBottom:'40px',paddingTop:'7px',color:'#002D40'}} >Work</h1>
         </div>
         <div className='WorkExprience__contant'  >
             <div className='WorkExprience_contant__title' >
