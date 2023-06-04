@@ -18,8 +18,10 @@
     pointer-events: none;
   }
   .skills_logo > img {
-    width: 12vh;
-    
+    width: 8vh;
+  }
+  .skills_logo > h1 {
+    padding-left: 20px;
   }
 @media (prefers-reduced-motion: no-preference) {
     .skills_logo > img {

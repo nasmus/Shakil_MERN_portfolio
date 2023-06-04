@@ -1,10 +1,10 @@
 import React from "react";
 import "../CSS/SkillComponent.css";
-import logo from '../image/logo.svg'
+import logo from '../image/logo.png'
 
 function SkillsComponent() {
   const techStack = ["React.js", "Express JS", "Redux", "Node.js"];
-  const backendStack = ["Context Api","JWT Token","MongoDb"];
+  const backendStack = ["Context Api","JWT Token","MongoDb","ES6"];
   return (
     <div>
       <div className="Right_component__skills"  >
