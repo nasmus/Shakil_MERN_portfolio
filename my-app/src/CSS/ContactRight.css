@@ -12,16 +12,12 @@
     flex-direction: column;
     margin: auto;
     align-items: center;
-    
 }
 .contact__inputtText {
     display: flex;
     margin: auto;
     flex-direction: column;
     gap: 20px;
-    
-    
-    
 }
 .contact__inputtText > input {
     padding: 10px;
