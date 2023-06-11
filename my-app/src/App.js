@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 import Achievement from './Component/Achievement';
 import ContactUs from './Component/ContactUs';
@@ -6,14 +7,33 @@ import LeftComponent from './Component/LeftComponent';
 import PersonalWork from './Component/PersonalWork';
 import SkillsComponent from './Component/SkillsComponent';
 import WorkExprience from './Component/WorkExprience';
+import HashLoader from "react-spinners/HashLoader";
 
 function App() {
-  const isMobile = window.innerWidth <= 768;
-
+  const [loading,setLoading] = useState(false)
+  //const isMobile = window.innerWidth <= 768;
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    },5000)
+  },[])
   
   return (
     <div className="App">
-      <div className='leftComponent'>
+      {
+        loading ?
+        <div className='spinner'>
+          <HashLoader 
+            size={150}
+            color={"#dfe3e6"}
+            loading={loading}
+          />
+        </div>
+        
+        :
+        <>
+        <div className='leftComponent'>
         <LeftComponent /> 
       </div>
       
@@ -29,6 +49,9 @@ function App() {
         <Achievement name='shakil' /> 
         <ContactUs />
       </div>
+        </>
+      }
+      
     </div>
   );
 }
