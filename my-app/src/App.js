@@ -16,7 +16,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    },5000)
+    },3000)
   },[])
   
   return (
@@ -40,7 +40,7 @@ function App() {
       <div className='Right_component'>
         <div style={{color:'#e6e6e6'}} className='Right_component__titel' >
           <h1>MD.NASMUS SHAHADAT</h1>
-          <h4>FRONT END DEVELOPER</h4>
+          <h4>FRONT-END DEVELOPER</h4>
         </div>
         <SkillsComponent />
         <EducationComponent />

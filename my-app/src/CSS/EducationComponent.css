@@ -1,21 +1,10 @@
 .Education{
   padding-top: 75px;
   padding-bottom: 100px;
-  background-color: #4d8bce;
+  background-color: #6E7FAE;
 
 }
-.Education__contant {
-  display: flex;
-  padding-bottom: 40px;
-}
-.Education_contant__title {
-  width: 27%;
-}
-.Education_contant__background {
-  padding-top: 10px;
-  width: 73%;
-  align-items: flex-start;
-}
+
 .education__logo {
   pointer-events: none; 
   display: flex;
@@ -24,9 +13,90 @@
 .education__logo > img {
   padding-right: 20px; 
   width: 12vh;
-  
   animation: rotateYAnimation 10s infinite linear;
   transform-style: preserve-3d;
+}
+
+.eduContainer {
+  padding: 10px 25px;
+  position: relative;
+  width: 50%;
+  animation: movedown 1s linear forwards;
+  opacity: 0;
+  z-index: 1;
+}
+
+.eduContainer:nth-child(1){
+  animation-delay: 0s;
+}
+.eduContainer:nth-child(2){
+  animation-delay: 1s;
+}
+.eduContainer:nth-child(3){
+  animation-delay: 2s;
+}
+.text-box1 {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background: #fff;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+  background: linear-gradient(
+      150deg,
+      rgb(106, 197, 203) 0%,
+      rgb(113, 181, 223) 35%,
+      rgb(117, 218, 236) 100%
+  );
+  
+}
+.Left-container {
+  left: 0;
+}
+.Right-container {
+  left: 50%;
+}
+
+.text-box1 > h2 {
+  font-weight: 600px;
+  color: rgb(62, 73, 103);
+}
+.text-box1 > p {
+  color: rgb(62, 73, 103);
+  font-weight: 500px;
+}
+.text-box1 > small {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.Left-container-arrow1 {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #4ab3d3;
+  right: -15px;
+}
+.Right-container-arrow1 {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #4ab3d3;
+  left: -15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Right-container >img,.container > img {
+    animation: App-logo-spin infinite 3s linear;
+  }
 }
 
 @keyframes rotateYAnimation {

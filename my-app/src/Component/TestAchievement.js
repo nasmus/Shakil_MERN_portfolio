@@ -47,7 +47,7 @@ function TestAchievement() {
               </div>
 
               <div className='container Left-container'>
-              <img src={google} />
+                <img src={google} />
                 <div className='text-box'>
                   <h2>Aiub</h2>
                   <small>2018 - 2019</small>

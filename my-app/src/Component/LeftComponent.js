@@ -35,31 +35,31 @@ function LeftComponent() {
 
   const [uiColor, setUiColor] = useState(null)
   useEffect(() => {
-    if(scrollPosition <368){
+    if(scrollPosition <268){
       setUiColor('#cc0052');
       setNameScreen(true);
     } else {
       setNameScreen(false)
     }
-    if(scrollPosition >=369 && scrollPosition <=790){
+    if(scrollPosition >=269 && scrollPosition <=590){
       setUiColor('#729974');
       setEducation(true);
     } else {
       setEducation(false)
     }
-    if(scrollPosition >= 791 && scrollPosition <=1358){
-      setUiColor('#4E5C85')
+    if(scrollPosition >= 591 && scrollPosition <=1258){
+      setUiColor('#3E4967')
       setSkills(true);
     } else {
       setSkills(false)
     }
-    if(scrollPosition >= 1359 && scrollPosition <= 2131){
+    if(scrollPosition >= 1259 && scrollPosition <= 1931){
       setUiColor('#002D40');
       setWorkExprience(true)
     } else {
       setWorkExprience(false)
     }
-    if(scrollPosition >=2132 && scrollPosition<= 2730){
+    if(scrollPosition >=1932 && scrollPosition<= 2730){
       setUiColor('#8E2C5D');
       setPersonalProject(true)
     } else {

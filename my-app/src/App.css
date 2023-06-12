@@ -1,5 +1,6 @@
 *{
   margin: 0px;
+  font-family: sans-serif;
 }
 
 .spinner{
@@ -23,6 +24,14 @@
   text-align: center;
   background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
 }
+.Right_component__titel > h4 {
+  color: transparent;
+  padding-top: 10px;
+  background-clip: text;
+  background-image: linear-gradient(to left, #e6e6e6, #3498db, #9659b6, #f39c12);
+  animation: animate 5s linear infinite;
+  background-size: 500%;
+}
 
 /* .Right_component__titel > h1 {
   color: transparent;
@@ -32,6 +41,7 @@
   background-size: 500%;
 
 }
+*/
 @keyframes animate{
   0%{
     background-position: 0 100%;
@@ -42,7 +52,7 @@
   100% {
     background-position: 0 100%;
   }
-} */
+} 
 
 .Right_component__skills > h1 {
   padding-left: 30px;
