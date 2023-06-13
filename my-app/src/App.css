@@ -15,7 +15,6 @@
 
 .Right_component{
   margin-left: 50%;
-  
 }
 
 .Right_component__titel {
@@ -28,7 +27,7 @@
   color: transparent;
   padding-top: 10px;
   background-clip: text;
-  background-image: linear-gradient(to left, #e6e6e6, #3498db, #9659b6, #f39c12);
+  background-image: linear-gradient(to left, #e6e6e6, #000000, #3c033c, #ffffff);
   animation: animate 5s linear infinite;
   background-size: 500%;
 }
@@ -44,13 +43,13 @@
 */
 @keyframes animate{
   0%{
-    background-position: 0 100%;
+    background-position: 0 50%;
   }
   50% {
-    background-position: 100% 0;
+    background-position: 50% 100%;
   }
   100% {
-    background-position: 0 100%;
+    background-position: 0 50%;
   }
 } 
 

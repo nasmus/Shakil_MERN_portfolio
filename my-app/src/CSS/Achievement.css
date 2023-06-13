@@ -117,18 +117,18 @@
     }
 }
 
-.text-box > h2 {
-    font-weight: 600px;
-    color: #005c99;
-}
-.text-box > p {
-    color: #094268;
-    font-weight: 500px;
-}
-.text-box > small {
-    display: inline-block;
-    margin-bottom: 10px;
-}
+    .text-box > h2 {
+        font-weight: 600px;
+        color: #005c99;
+    }
+    .text-box > p {
+        color: #094268;
+        font-weight: 500px;
+    }
+    .text-box > small {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
 .Left-container-arrow {
     height: 0;
     width: 0;
@@ -137,7 +137,7 @@
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #fff;
+    border-left: 15px solid #ffffff;
     right: -15px;
 }
 .Right-container-arrow {

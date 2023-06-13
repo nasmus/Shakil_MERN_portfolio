@@ -42,11 +42,12 @@
   position: relative;
   border-radius: 6px;
   font-size: 15px;
+  
   background: linear-gradient(
       150deg,
-      rgb(106, 197, 203) 0%,
-      rgb(113, 181, 223) 35%,
-      rgb(117, 218, 236) 100%
+      rgb(62, 73, 103) 0%,
+      rgb(65, 73, 123) 35%,
+      rgb(63, 73, 115) 100%
   );
   
 }
@@ -59,16 +60,16 @@
 
 .text-box1 > h2 {
   font-weight: 600px;
-  color: rgb(62, 73, 103);
+  color: rgb(219, 220, 224);
 }
 .text-box1 > p {
-  color: rgb(62, 73, 103);
+  color: rgb(220, 221, 225);
   font-weight: 500px;
 }
 .text-box1 > small {
   display: inline-block;
   margin-bottom: 10px;
-  color: #fff;
+  color: orange;
 }
 .Left-container-arrow1 {
   height: 0;
@@ -78,7 +79,7 @@
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid #4ab3d3;
+  border-left: 15px solid #492a6c;
   right: -15px;
 }
 .Right-container-arrow1 {
@@ -89,7 +90,7 @@
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-right: 15px solid #4ab3d3;
+  border-right: 15px solid #492a6c;
   left: -15px;
 }
 
