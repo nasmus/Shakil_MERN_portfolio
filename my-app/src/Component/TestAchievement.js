@@ -29,9 +29,9 @@ function TestAchievement() {
               <div className='container Left-container'>
               <img src={google} alt='achivement' />
                 <div className='text-box'>
-                  <h2>Aiub</h2>
-                  <small>2018 - 2019</small>
-                  <p>this is the p tag for discription</p>
+                  <h2>FIFA</h2>
+                  <small>2019</small>
+                  <p>Inter college fifa champion</p>
                   <span className='Left-container-arrow' ></span>
                 </div>                
               </div>

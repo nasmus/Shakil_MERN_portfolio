@@ -19,11 +19,14 @@
 }
 .WorkExprience_contant__title > h4 {
     padding-bottom: 10px;
+
 }
 .WorkExprience_contant__background {
-    padding-top: 10px;
     width: 73%;
     align-items: flex-start;
+}
+.WorkExprience_contant__background > ul > li {
+    margin-bottom: 10px;
 }
 .work__logo > h1 {
     padding-left: 20px;

@@ -29,7 +29,7 @@ function WorkExprience() {
             <div className='WorkExprience_contant__title' >
                 <h2 style={{color:'rgb(0, 45, 64)'}} >Idea Tech</h2>
                 <h4>DEC2020 - SEP2020</h4>
-                <Badge bg="success">
+                <Badge style={{color:'green'}} bg="success">
                     Freelance
                 </Badge>
             </div>
