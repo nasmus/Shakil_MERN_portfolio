@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4fbc340.css",
+    "main.js": "/static/js/main.59b32872.js",
+    "static/media/aiub.png": "/static/media/aiub.8c1c794b7bf1abbc4747.png",
+    "static/media/logo.png": "/static/media/logo.83bf9144d24bb9ba2e66.png",
+    "static/media/moneybaggo.png": "/static/media/moneybaggo.ff88f5cf7b20cf6ed47c.png",
+    "static/media/dream.png": "/static/media/dream.f1f8d80ebc7eec129e43.png",
+    "static/media/achievement.png": "/static/media/achievement.abcf788bae7be108100d.png",
+    "static/media/specdecoder.png": "/static/media/specdecoder.326672ea7b9aa710790e.png",
+    "static/media/message_png.png": "/static/media/message_png.b5bf8232fdefa0535de2.png",
+    "static/media/skills.png": "/static/media/skills.64d0fa3a910b2c7a53f2.png",
+    "static/media/man.png": "/static/media/man.70a4a156cff9bd925079.png",
+    "static/media/work_logo.png": "/static/media/work_logo.eac3dda8bd8ccd2ac687.png",
+    "static/media/laptop.png": "/static/media/laptop.0dd5213e95587eca8548.png",
+    "static/media/awards.png": "/static/media/awards.8151873b004ee08c2198.png",
+    "static/media/degree.png": "/static/media/degree.1f178ea08e68e0eb2647.png",
+    "static/media/mail.png": "/static/media/mail.6ad14664c27a85b3642a.png",
+    "static/media/education.png": "/static/media/education.6738cf62584c611afa40.png",
+    "static/media/moneybag.png": "/static/media/moneybag.49971b8e377ac3dccebb.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.b4fbc340.css",
+    "static/js/main.59b32872.js"
+  ]
+}
