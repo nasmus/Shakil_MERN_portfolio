@@ -55,4 +55,10 @@
       transform: rotate(360deg);
     }
   }
+
+  @media only screen and (max-width:780px){
+    .WorkExprience_contant__title > h2 {
+        font-size: 18px;
+    }
+  }
   

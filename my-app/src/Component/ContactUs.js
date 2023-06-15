@@ -40,7 +40,7 @@ export default function ContactUs() {
                     </div>
                 </div>
                 <div className="contact__button">
-                    <Button type='submit' style={{color:'rgb(37, 142, 142)'}} >
+                    <Button type='submit' style={{color:'#fff'}} >
                         Send Message
                     </Button>
                 </div>

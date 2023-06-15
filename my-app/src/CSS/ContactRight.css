@@ -94,4 +94,12 @@
     .contact__inputtText > input{
         width: 215px;
     }
+    .contact__inputfield  {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

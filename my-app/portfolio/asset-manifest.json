@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4fbc340.css",
-    "main.js": "/static/js/main.59b32872.js",
+    "main.css": "/static/css/main.5b54ce7e.css",
+    "main.js": "/static/js/main.8ce5f654.js",
     "static/media/aiub.png": "/static/media/aiub.8c1c794b7bf1abbc4747.png",
     "static/media/logo.png": "/static/media/logo.83bf9144d24bb9ba2e66.png",
     "static/media/moneybaggo.png": "/static/media/moneybaggo.ff88f5cf7b20cf6ed47c.png",
@@ -21,7 +21,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.b4fbc340.css",
-    "static/js/main.59b32872.js"
+    "static/css/main.5b54ce7e.css",
+    "static/js/main.8ce5f654.js"
   ]
 }
