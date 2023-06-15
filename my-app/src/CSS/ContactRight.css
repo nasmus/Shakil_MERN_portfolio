@@ -90,3 +90,8 @@
     -webkit-transition: 1s;
     transition: 1s;
 }
+@media only screen and (max-width:780px){
+    .contact__inputtText > input{
+        width: 215px;
+    }
+}
