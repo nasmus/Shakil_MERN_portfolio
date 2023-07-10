@@ -35,9 +35,7 @@ export default function ContactUs() {
                         <input type="text" placeholder="Email" name="user_email" />
                         <input type="text" placeholder="Phone" name="phone_number"/>
                     </div>
-                    <div className="contact__inputTextarea">
                         <textarea className='contact_textarea' name="message" placeholder="Message Me" cols="30" rows="9"  ></textarea>
-                    </div>
                 </div>
                 <div className="contact__button">
                     <Button type='submit' style={{color:'#fff'}} >

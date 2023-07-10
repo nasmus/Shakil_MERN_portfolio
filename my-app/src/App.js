@@ -23,19 +23,20 @@ function App() {
     <div className="App">
       {
         loading ?
-        <div className='spinner'>
+        <div style={{display:'flex',flexDirection:'column'}} className='spinner'>
           <HashLoader 
             size={150}
             color={"#21125c"}
             loading={loading}
           />
+          <h4 style={{paddingTop:'30px',color:'#493075'}}>Open from destktop</h4>
         </div>
         
         :
         <>
         <div className='leftComponent'>
-        <LeftComponent /> 
-      </div>
+          <LeftComponent /> 
+        </div>
       
       <div className='Right_component'>
         <div style={{color:'#e6e6e6'}} className='Right_component__titel' >
@@ -46,7 +47,7 @@ function App() {
         <EducationComponent />
         <WorkExprience />
         <PersonalWork />
-        <Achievement name='shakil' /> 
+        <Achievement /> 
         <ContactUs />
       </div>
         </>

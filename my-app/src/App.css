@@ -56,15 +56,19 @@
 .Right_component__skills > h1 {
   padding-left: 30px;
   padding-bottom: 50px;
-  
 }
+
 @media (max-width: 768px) {
   .Right_component {
+    position: relative;
     width: 100%;
     margin: 0px;
     padding: 0px;
+    background: transparent;
+    opacity: 1;
   }
   .leftComponent {
-    display: none;
+    position: absolute;
+    width: 100%;
   }
 }

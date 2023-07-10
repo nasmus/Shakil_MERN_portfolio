@@ -1,7 +1,7 @@
 import React from 'react'
 import '../CSS/WorkExprience.css'
 import Badge from 'react-bootstrap/Badge';
-import work_logo from '../image/work_logo.png'
+import work_logo from '../image/work_logo.png';
 
 function WorkExprience() {
   return (
@@ -21,7 +21,7 @@ function WorkExprience() {
                   <li><p>Design & Building a micro niche multivendor ecommerce website using ( MERN stack )</p></li>
                 </ul>
                 <ul>
-                  <li><p>develop is as a solo developer</p></li>
+                  <li><p>developing this website as a solo developer</p></li>
                 </ul>
             </div>
           </div>

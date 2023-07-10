@@ -32,7 +32,7 @@
 .contact__inputtText > input:focus {
     border: 2px solid orange;
 }
-.contact__inputTextarea > textarea{
+.contact__inputfield > textarea{
     border: 2px solid #fff;
     background: transparent;
     outline: none;
@@ -95,7 +95,7 @@
         width: 215px;
     }
     .contact__inputfield  {
-        margin: 0;
+        margin: 0; 
         padding: 0;
         display: flex;
         flex-direction: column;
