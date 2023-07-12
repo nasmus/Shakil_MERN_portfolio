@@ -11,7 +11,7 @@ import HashLoader from "react-spinners/HashLoader";
 
 function App() {
   const [loading,setLoading] = useState(false)
-  //const isMobile = window.innerWidth <= 768;
+  const isMobile = window.innerWidth <= 768;
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {
@@ -29,7 +29,11 @@ function App() {
             color={"#21125c"}
             loading={loading}
           />
-          <h4 style={{paddingTop:'30px',color:'#493075'}}>Open from destktop</h4>
+          {
+            isMobile ?
+              <h4 style={{paddingTop:'30px'}}>Open It From Destktop</h4> : ""
+          }
+          
         </div>
         
         :

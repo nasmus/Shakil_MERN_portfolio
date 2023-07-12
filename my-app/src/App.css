@@ -13,6 +13,19 @@
   height: 100vh;
 }
 
+.spinner > h4{
+  color: transparent;
+  letter-spacing: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  animation: typing 2s steps(21), cursor .4s step-end infinite alternate,animate 5s linear infinite;
+  background-clip: text;
+  background-image: linear-gradient(to left, #e6e6e6, #000000, #3c033c, #ffffff);
+  background-size: 500%;
+  
+}
+
 .Right_component{
   margin-left: 50%;
 }
@@ -71,4 +84,7 @@
     position: absolute;
     width: 100%;
   }
+}
+@keyframes typing {
+  from { width: 0 }
 }
