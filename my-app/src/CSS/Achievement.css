@@ -80,11 +80,12 @@
     font-size: 15px;
     background: linear-gradient(
         150deg,
-        rgb(106, 197, 203) 0%,
-        rgb(113, 181, 223) 35%,
-        rgb(117, 218, 236) 100%
+        rgb(0, 92, 153) 0%,
+        rgb(0, 92, 153) 35%,
+        rgb(0, 92, 153) 100%
     );
-    box-shadow: 1px 1px 3px #cbced1, -1px -1px 3px #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;;
+    
 }
 .Left-container {
     left: 0;
@@ -118,17 +119,18 @@
 }
 
     .text-box > h2 {
-        font-weight: 600px;
-        color: #005c99;
+        font-weight: 500px;
+        color: #d3cfcf;
     }
     .text-box > p {
-        color: #094268;
-        font-weight: 500px;
+        color: #d3cfcf;
+        font-weight: 600;
     }
     .text-box > small {
         display: inline-block;
         margin-bottom: 10px;
-        color: #cbced1;
+        font-weight: 700;
+        color: #d0670a;
     }
 .Left-container-arrow {
     height: 0;
@@ -170,5 +172,11 @@
     }
     to {
       transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width:780px){
+    .achievement{
+        margin:0px;
     }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "../CSS/Achievement.css";
-import google from "../image/google.png";
+import fifa_logo from "../image/fifa_logo.png"
 import aiub from "../image/aiub.png";
 
 function TestAchievement() {
@@ -12,7 +12,7 @@ function TestAchievement() {
           <div className="text-box">
             <h2>AIUB</h2>
             <small>OCT 2019</small>
-            <p>Best Project Display (SP1)</p>
+            <p>Best Project Display (Software Project One)</p>
             <span className="Left-container-arrow"></span>
           </div>
         </div>
@@ -27,11 +27,11 @@ function TestAchievement() {
         </div>
 
         <div className="container Left-container">
-          <img src={google} alt="achivement" />
+          <img src={fifa_logo} alt="achivement" />
           <div className="text-box">
             <h2>FIFA</h2>
             <small>2019</small>
-            <p>Inter college fifa champion</p>
+            <p>Inter college fifa champion </p>
             <span className="Left-container-arrow"></span>
           </div>
         </div>
