@@ -9,7 +9,6 @@ function PersonalWork() {
       <div
         data-aos="fade-up"
         className="personal__work__container"
-        style={{ paddingLeft: "30px" }}
       >
         <div className="dream_logo">
           <img src={dream} />

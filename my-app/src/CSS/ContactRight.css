@@ -6,6 +6,11 @@
 .contactUs__section > h1 {
     padding-bottom: 30px;
 }
+.contactUs__logo{
+    align-items: center;
+    padding-left: 20px;
+}
+
 .contact__right {
     width: 60%;
     display: flex;
@@ -69,7 +74,7 @@
     padding-bottom: 40px ;
 }
 .contactUs__logo > img {
-    width: 10vh;
+    width: 9vh;
 }
 
 .footer {

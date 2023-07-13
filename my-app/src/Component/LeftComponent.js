@@ -83,8 +83,8 @@ function LeftComponent() {
       <div style={{ backgroundColor: `${uiColor}` }} className="Left_component">
         <div className="road-animation">
           {nameScreen ? <Man /> : ""}
-          {education ? <Degree /> : ""}
           {skills ? <Skills /> : ""}
+          {education ? <Degree /> : ""}
           {workExprience ? <Work /> : ""}
           {personalProject ? <PersonalProject /> : ""}
           {achievement ? <Achievement name="shakil" /> : ""}

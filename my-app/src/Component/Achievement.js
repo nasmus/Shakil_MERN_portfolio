@@ -20,7 +20,6 @@ export default function Achievement() {
     <div className="achievement">
       <div
         data-aos="fade-up"
-        style={{ paddingLeft: "30px" }}
         className="achievement__section"
       >
         <div className="achievement_logo">

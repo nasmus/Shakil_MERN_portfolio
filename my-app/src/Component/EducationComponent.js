@@ -15,10 +15,10 @@ function EducationComponent() {
   return (
     <div>
       <div className="Education">
-        <div style={{ paddingLeft: "30px" }} data-aos="fade-up">
+        <div data-aos="fade-up">
           <div className="education__logo">
             <img src={education} alt="educationLogo" />
-            <h1 style={{ color: "#dadde3", paddingLeft: "20px" }}>Education</h1>
+            <h1 style={{ color: "#dadde3", }}>Education</h1>
           </div>
           {isActive ? (
             <>
@@ -34,7 +34,7 @@ function EducationComponent() {
                 <div className="text-box1">
                   <h2>HSC</h2>
                   <small>JUN2012 - JUN2014</small>
-                  <p>Ullapara Science College, Sirajganj</p>
+                  <p>Ullapara Science College. Ullapara, Sirajganj</p>
                   <span className="Right-container-arrow1"></span>
                 </div>
               </div>
@@ -42,7 +42,7 @@ function EducationComponent() {
                 <div className="text-box1">
                   <h2>SSC</h2>
                   <small>JUN2010 - JUN2012</small>
-                  <p>Ullapara Merchant Pilot High School, Sirajganj,</p>
+                  <p>Ullapara Merchant Pilot High School. ullapara, Sirajganj,</p>
                   <span className="Left-container-arrow1"></span>
                 </div>
               </div>

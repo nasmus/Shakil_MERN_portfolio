@@ -3,6 +3,10 @@
     padding-bottom: 100px;
     background-color: #d19bb7;
 }
+.dream_logo {
+    align-items: center;
+    padding-left: 20px;
+}
 .dream_logo > h1 {
     color: #0c2557;
 }

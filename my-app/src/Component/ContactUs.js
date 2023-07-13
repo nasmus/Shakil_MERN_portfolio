@@ -33,7 +33,6 @@ export default function ContactUs() {
     <div className="contactUs">
       <div
         data-aos="fade-up"
-        style={{ paddingLeft: "40px" }}
         className="contactUs__section"
       >
         <div className="contactUs__logo">
