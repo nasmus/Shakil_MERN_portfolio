@@ -39,7 +39,7 @@ function LeftComponent() {
     } else {
       setNameScreen(false);
     }
-    if (scrollPosition > 269 && scrollPosition <= 590) {
+    if (scrollPosition >= 269 && scrollPosition <= 590) {
       setUiColor("#729974");
       setEducation(true);
     } else {
