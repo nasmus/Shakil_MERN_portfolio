@@ -39,13 +39,13 @@ function LeftComponent() {
     } else {
       setNameScreen(false);
     }
-    if (scrollPosition >= 269 && scrollPosition <= 590) {
+    if (scrollPosition >= 269 && scrollPosition <= 595) {
       setUiColor("#729974");
       setEducation(true);
     } else {
       setEducation(false);
     }
-    if (scrollPosition >= 591 && scrollPosition <= 1258) {
+    if (scrollPosition >= 596 && scrollPosition <= 1258) {
       setUiColor("#3E4967");
       setSkills(true);
     } else {

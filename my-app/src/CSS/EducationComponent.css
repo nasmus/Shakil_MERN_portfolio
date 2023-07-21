@@ -98,24 +98,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .Right-container >img,.container > img {
+  .Right-container >img .container > img {
     animation: App-logo-spin infinite 3s linear;
   }
 }
 
-@keyframes rotateYAnimation {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
-}
-@media only screen and (max-width:780px){
-  .Education{
-    width: 100%;
-  }
-  .education__logo{
-    padding-left: 0px;
-  }
-}
